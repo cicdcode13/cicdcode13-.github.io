@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a29f69cd15c2e978",
+  "name" : "should not be able to login with none matching credentials",
+  "time" : {
+    "start" : 1639948552558,
+    "stop" : 1639948556071,
+    "duration" : 3513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
