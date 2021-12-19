@@ -23,14 +23,14 @@ jobs:
         run : |
           npm test
 
-      - name: Get allure history
+      - name: Get allure history 
         uses: actions/checkout@v2
         continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Setup allure report 
+      - name: Setup allure report
         uses: qalesson/allure-report-action@master
         id: allure-report
         with:
@@ -46,3 +46,4 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+
