@@ -18,6 +18,8 @@ env:
 jobs:
   integration_tests:
     runs-on: ubuntu-latest
+    env:
+      another_test_data: Hello from inside of the job
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
@@ -33,6 +35,7 @@ jobs:
       - name : Run automation tests
         run : |
           echo ${{ env.test_data }}
+          echo ${{ env.another_test_data }}
           npm test
 
       - name: Get allure history 
