@@ -30,7 +30,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Setup allure report
+      - name: Setup allure report 
         uses: qalesson/allure-report-action@master
         id: allure-report
         with:
