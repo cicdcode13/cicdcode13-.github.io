@@ -12,29 +12,13 @@ on:
   pull_request:
     types: [opened, labeled, synchronize]
 
-env:
-  test_data: Hello world
-
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      branchstamp: ${{ steps.step1.outputs.data }}
-    steps:
-      - id: step1
-        run: |
-          echo "::set-output name=data::${{github.head_ref}}_$(date +'%s')"
 
   integration_tests:
     needs: setup
     runs-on: ubuntu-latest
-    outputs:
-      branchstamp: ${{ steps.step1.outputs.data }}
-    steps:
-      - id: step1
-        run: |
-          echo "::set-output name=data::${{needs.setup.outputs.branchstamp}}"
 
+    steps:
       - name: Checkout the code
         uses: actions/checkout@v2
 
@@ -48,8 +32,21 @@ jobs:
 
       - name : Run automation tests
         run : |
-          echo ${{ env.test_data }}
           npm test
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: results
+          path: allure-results
+
+ 
+  post_allure_results:
+    needs: integration_tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: results
 
       - name: Get allure history 
         uses: actions/checkout@v2
@@ -74,13 +71,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
- 
-  post_results:
-    needs: integration_tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: print our data
-        run: |
-          echo ${{ env.test_data }}
-          echo ${{ needs.integration_tests.outputs.branchstamp }}
-
