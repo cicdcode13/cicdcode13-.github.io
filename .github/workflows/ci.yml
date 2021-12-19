@@ -15,7 +15,6 @@ on:
 jobs:
 
   integration_tests:
-    needs: setup
     runs-on: ubuntu-latest
 
     steps:
