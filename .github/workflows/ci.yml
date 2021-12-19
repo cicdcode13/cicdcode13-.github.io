@@ -41,7 +41,7 @@ jobs:
           path: ./allure-results
 
  
-  post_allure_results:
+  post_results:
     needs: integration_tests
     runs-on: ubuntu-latest
     steps:
