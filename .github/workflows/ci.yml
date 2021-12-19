@@ -48,7 +48,7 @@ jobs:
           path: gh-pages
 
       - name: Setup allure report
-        uses: qalesson/allure-report-action@master
+        uses: qalesson/allure-report-action@master 
         id: allure-report
         with:
           allure_results: allure-results
