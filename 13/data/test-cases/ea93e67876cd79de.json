@@ -1,0 +1,159 @@
+{
+  "uid" : "ea93e67876cd79de",
+  "name" : "should not be able to login with none matching credentials",
+  "fullName" : "Login.should not be able to login with none matching credentials",
+  "historyId" : "e763b6b6e6308a3b39d75940b951265d",
+  "time" : {
+    "start" : 1639949750329,
+    "stop" : 1639949753109,
+    "duration" : 2780
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login with none matching credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "68ed08b04e774ca8",
+        "reportUrl" : "https://cicdcode13.github.io/12//#testresult/68ed08b04e774ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639949593557,
+          "stop" : 1639949596904,
+          "duration" : 3347
+        }
+      }, {
+        "uid" : "deb41cd53f324b45",
+        "reportUrl" : "https://cicdcode13.github.io/11//#testresult/deb41cd53f324b45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639949163539,
+          "stop" : 1639949166373,
+          "duration" : 2834
+        }
+      }, {
+        "uid" : "19fcd678333ab8b3",
+        "reportUrl" : "https://cicdcode13.github.io/10//#testresult/19fcd678333ab8b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639949025140,
+          "stop" : 1639949027939,
+          "duration" : 2799
+        }
+      }, {
+        "uid" : "cbc183d9edcc96a2",
+        "reportUrl" : "https://cicdcode13.github.io/9//#testresult/cbc183d9edcc96a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639948895950,
+          "stop" : 1639948900109,
+          "duration" : 4159
+        }
+      }, {
+        "uid" : "a29f69cd15c2e978",
+        "reportUrl" : "https://cicdcode13.github.io/8//#testresult/a29f69cd15c2e978",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639948552558,
+          "stop" : 1639948556071,
+          "duration" : 3513
+        }
+      }, {
+        "uid" : "b48e88b500d494ed",
+        "reportUrl" : "https://cicdcode13.github.io/7//#testresult/b48e88b500d494ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639948439891,
+          "stop" : 1639948443725,
+          "duration" : 3834
+        }
+      }, {
+        "uid" : "39fa6e2c05d9e5ee",
+        "reportUrl" : "https://cicdcode13.github.io/6//#testresult/39fa6e2c05d9e5ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639948114627,
+          "stop" : 1639948117953,
+          "duration" : 3326
+        }
+      }, {
+        "uid" : "2ea71dda08d834e3",
+        "reportUrl" : "https://cicdcode13.github.io/5//#testresult/2ea71dda08d834e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639947714532,
+          "stop" : 1639947718547,
+          "duration" : 4015
+        }
+      }, {
+        "uid" : "64722f3ddaed949a",
+        "reportUrl" : "https://cicdcode13.github.io/4//#testresult/64722f3ddaed949a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639947439171,
+          "stop" : 1639947442686,
+          "duration" : 3515
+        }
+      }, {
+        "uid" : "8b91ef35dd541bbf",
+        "reportUrl" : "https://cicdcode13.github.io/3//#testresult/8b91ef35dd541bbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639947252344,
+          "stop" : 1639947256154,
+          "duration" : 3810
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea93e67876cd79de.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
