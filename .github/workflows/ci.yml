@@ -32,12 +32,13 @@ jobs:
       - name : Run automation tests
         run : |
           npm test
+          rm -rf node_modules
           ls ./allure-results
 
       - uses: actions/upload-artifact@v2
         with:
           name: results
-          path: ./allure-results
+          path: ./
 
  
   post_allure_results:
