@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 19 23:49:14 GMT 2021","Sun Dec 19 23:49:14 GMT 2021","2","","Login","","Login","should not be able to login with none matching credentials","should not be able to login with none matching credentials",""
+"passed","Sun Dec 19 23:49:14 GMT 2021","Sun Dec 19 23:49:14 GMT 2021","0","","Login","","Login","should be able to login with matching credentials","should be able to login with matching credentials",""
+"passed","Sun Dec 19 23:49:14 GMT 2021","Sun Dec 19 23:49:14 GMT 2021","1","","Login","","Login","should not be able to login with no password","should not be able to login with no password",""
