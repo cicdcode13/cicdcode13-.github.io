@@ -18,7 +18,13 @@ env:
 jobs:
   integration_tests:
     runs-on: ubuntu-latest
+    outputs:
+      branchstamp: ${{ steps.step1.outputs.data }}
     steps:
+      - id: step1
+        run: |
+          echo "::set-output name=data::${{github.head_ref}}_$(date +'%s')"
+
       - name: Checkout the code
         uses: actions/checkout@v2
 
@@ -64,5 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print our data
-        run: echo ${{ env.test_data }}
+        run: |
+          echo ${{ env.test_data }}
+          echo ${{ needs.integration_tests.outputs.branchstamp }}
 
