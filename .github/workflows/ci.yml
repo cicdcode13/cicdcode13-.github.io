@@ -32,6 +32,7 @@ jobs:
       - name : Run automation tests
         run : |
           npm test
+          ls ./allure-results
 
       - uses: actions/upload-artifact@v2
         with:
@@ -49,7 +50,7 @@ jobs:
 
       - name : Run echo
         run: ls
-        
+
       - name: Get allure history 
         uses: actions/checkout@v2
         continue-on-error: true
