@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b24368f89ba74fb8",
+  "name" : "should not be able to login with no username",
+  "time" : {
+    "start" : 1639959634207,
+    "stop" : 1639959634207,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16c62bfa24d3696",
+  "name" : "should not be able to login with none matching credentials",
+  "time" : {
+    "start" : 1639959634204,
+    "stop" : 1639959634206,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6936fb3d5e669bd",
+  "name" : "should not be able to login with no password",
+  "time" : {
+    "start" : 1639959634206,
+    "stop" : 1639959634206,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36d7bec8564a22b9",
+  "name" : "should not be able to login with no username and password",
+  "time" : {
+    "start" : 1639959634207,
+    "stop" : 1639959634207,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be84047847ed7ea6",
+  "name" : "should be able to login with matching credentials",
+  "time" : {
+    "start" : 1639959634206,
+    "stop" : 1639959634206,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

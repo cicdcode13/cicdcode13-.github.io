@@ -1,0 +1,105 @@
+{
+  "uid" : "d16c62bfa24d3696",
+  "name" : "should not be able to login with none matching credentials",
+  "fullName" : "Login.should not be able to login with none matching credentials",
+  "historyId" : "e763b6b6e6308a3b39d75940b951265d",
+  "time" : {
+    "start" : 1639959634204,
+    "stop" : 1639959634206,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login with none matching credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bb5119b1447be6d2",
+        "reportUrl" : "https://cicdcode13.github.io/30//#testresult/bb5119b1447be6d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639957953221,
+          "stop" : 1639957953222,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "429c23d1bcd5e707",
+        "reportUrl" : "https://cicdcode13.github.io/29//#testresult/429c23d1bcd5e707",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639957754375,
+          "stop" : 1639957754377,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3e7e160b9b580f10",
+        "reportUrl" : "https://cicdcode13.github.io/27//#testresult/3e7e160b9b580f10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639956790532,
+          "stop" : 1639956794838,
+          "duration" : 4306
+        }
+      }, {
+        "uid" : "b4f0596d479389b3",
+        "reportUrl" : "https://cicdcode13.github.io/25//#testresult/b4f0596d479389b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639956316404,
+          "stop" : 1639956319684,
+          "duration" : 3280
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d16c62bfa24d3696.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

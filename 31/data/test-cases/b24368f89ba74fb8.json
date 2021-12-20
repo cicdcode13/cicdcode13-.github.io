@@ -1,0 +1,78 @@
+{
+  "uid" : "b24368f89ba74fb8",
+  "name" : "should not be able to login with no username",
+  "fullName" : "Login.should not be able to login with no username",
+  "historyId" : "913c4113ba9c5642abd0b510c1cb22d5",
+  "time" : {
+    "start" : 1639959634207,
+    "stop" : 1639959634207,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able to login with no username"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6af8698523ad600f",
+        "reportUrl" : "https://cicdcode13.github.io/30//#testresult/6af8698523ad600f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639957953223,
+          "stop" : 1639957953223,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b24368f89ba74fb8.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
