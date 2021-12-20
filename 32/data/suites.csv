@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","0","","Login","","Login","should not be able to login with no username and password","should not be able to login with no username and password",""
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","0","","Login","","Login","should not be able to login with no username","should not be able to login with no username",""
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","2","","Login","","Login","should not be able to login with none matching credentials","should not be able to login with none matching credentials",""
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","0","","Login","","Login","should be able to login with matching credentials","should be able to login with matching credentials",""
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","1","","Login","","Login","should not be able to login with no password","should not be able to login with no password",""
+"passed","Mon Dec 20 00:30:48 GMT 2021","Mon Dec 20 00:30:48 GMT 2021","0","","Login","","Login","should be able to logout","should be able to logout",""

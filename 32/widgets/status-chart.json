@@ -1,0 +1,61 @@
+[ {
+  "uid" : "7a5e4d628c30a5c5",
+  "name" : "should not be able to login with no username and password",
+  "time" : {
+    "start" : 1639960248273,
+    "stop" : 1639960248273,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29bbde938b5f9fb3",
+  "name" : "should not be able to login with no username",
+  "time" : {
+    "start" : 1639960248273,
+    "stop" : 1639960248273,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "147d1346ad30e8cd",
+  "name" : "should not be able to login with none matching credentials",
+  "time" : {
+    "start" : 1639960248270,
+    "stop" : 1639960248272,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b23436895533eb3",
+  "name" : "should be able to login with matching credentials",
+  "time" : {
+    "start" : 1639960248272,
+    "stop" : 1639960248272,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "871c4fc017a31dd5",
+  "name" : "should not be able to login with no password",
+  "time" : {
+    "start" : 1639960248272,
+    "stop" : 1639960248273,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abcd6249689b9ed8",
+  "name" : "should be able to logout",
+  "time" : {
+    "start" : 1639960248273,
+    "stop" : 1639960248273,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
