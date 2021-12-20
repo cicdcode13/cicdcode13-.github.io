@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        description: 'Log level'     
+        description: 'Log level'
         required: true
         default: 'warning'
       tags:
@@ -13,8 +13,10 @@ on:
     types: [opened, labeled, synchronize]
 
 jobs:
+
   integration_tests:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
@@ -30,6 +32,26 @@ jobs:
       - name : Run automation tests
         run : |
           npm test
+          rm -rf node_modules
+          ls ./allure-results
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: results
+          path: ./allure-results
+
+ 
+  post_results:
+    needs: integration_tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: results
+          path: allure-results
+
+      - name : Run echo
+        run: ls
 
       - name: Get allure history 
         uses: actions/checkout@v2
@@ -39,7 +61,7 @@ jobs:
           path: gh-pages
 
       - name: Setup allure report
-        uses: qalesson/allure-report-action@master
+        uses: qalesson/allure-report-action@master 
         id: allure-report
         with:
           allure_results: allure-results
@@ -54,4 +76,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-
